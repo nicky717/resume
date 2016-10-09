@@ -127,7 +127,7 @@ projects: [{title:"Restaurant Template"}, {dates: "04/04/2016-08/12/2016"}, {des
 display: function () {
 	"use strict";
 	var HTMLprojectStart = '<div class="project-entry"></div>',
-		HTMLprojectTitle = '<a href="#">' + this.projects[0].title + '</a>',
+		HTMLprojectTitle = '<a href="https://nicky717.github.io/conFusion/">' + this.projects[0].title + '</a>',
 		HTMLprojectDates = '<div class="date-text">' + this.projects[1].dates + '</div>',
 		HTMLprojectDescription = '<p><br>' + this.projects[2].description + '</p>',
 		HTMLprojectImage = '<img src="' + this.projects[3].images + '">';
@@ -160,9 +160,9 @@ $('#mapDiv').append(googleMap);
 
 
 var locations = [
-    ['Where I Live', 'Boulder, CO', 'https://www.placewhereilive.com'],
-    ['Where I Studied', 'Arlington, TX', 'https://www.arlington.com'],
-    ['Where I Work', 'Fremont, CA', 'https://www.tesla.com']
+    ['Where I Live', 'Denver, CO', 'https://www.placewhereilive.com'],
+    ['Where I Studied', 'Boston, MA', 'https://www.arlington.com'],
+    ['Where I Work', 'Atlanta, GA', 'https://www.tesla.com']
 ];
 
 var geocoder;
