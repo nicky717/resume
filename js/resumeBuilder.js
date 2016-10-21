@@ -4,7 +4,7 @@
  var bio = {
  	name : "Sally Rowland",
  	role: "Web developer",
- 	contacts : {mobile: "234-123-9876", email: "sally7676@gmail.com", github: "https://github.com/sally", location: "Boulder,CO"},
+ 	contacts : {mobile: "234-123-9876", email: "sally7676@gmail.com", github: "https://github.com/sally", location: "Fremont,CA"},
  	welcomeMessage: "Hello I am an aspiring web developer",
  	skills: "HTML, CSS, Javascript, jQuery, Ajax, Bootstrap",
  	biopic: "images/fry.jpg",
@@ -160,9 +160,9 @@ $('#mapDiv').append(googleMap);
 
 
 var locations = [
-    ['Where I Live', 'Denver, CO', 'https://www.placewhereilive.com'],
-    ['Where I Studied', 'Boston, MA', 'https://www.arlington.com'],
-    ['Where I Work', 'Atlanta, GA', 'https://www.tesla.com']
+    ['Where I Live', 'Fremont, CA', 'https://www.placewhereilive.com'],
+    ['Where I Studied', 'Arlington, TX', 'https://www.arlington.com'],
+    ['Where I Work', 'Fremont, CA', 'https://www.tesla.com']
 ];
 
 var geocoder;
